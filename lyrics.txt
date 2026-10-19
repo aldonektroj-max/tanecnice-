@@ -1,0 +1,14 @@
+# Text pisne s casy -> karaoke titulky + reakce postav.
+# Kazdy radek:  m:ss[.s]  [akce]  R:  text
+#   cas    = kdy zacina radek v nahravce (napr. 0:12.5)
+#   [akce] = volitelne: spin, hops, jump, clap, kick, sway, heel, point, arms_up, side, hearts
+#            (bez akce se reakce vybere sama podle slov: tanečnica -> otocka, srdce/láska -> srdicka,
+#             hej/hop -> vyskok, ruky -> ruce nahoru ...)
+#   R:     = volitelne, oznaci refren (konfety, vsichni tanecnici, zlate pozadi)
+#   text   = "-" skryje titulek (pauza)
+# Radky zacinajici # se ignoruji. Sem vloz text pisne:
+#
+# 0:12.0 prvni radek sloky
+# 0:15.5 druhy radek sloky
+# 0:30.0 R: prvni radek refrenu
+# 0:45.0 -
